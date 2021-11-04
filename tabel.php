@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Tabel</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <style>
@@ -24,8 +24,9 @@ h2,h6{
 }
 </style>
 <body>
+    <img class="img img-responsive" src="img/USER.png" />
+    <button onclick="document.location='timeline.php'">Back</button>
     <h2>Data Tabel</h2>
-    <a href="timeline.php"><h6>Back</h6></a>
 </body>
 </html>
 <?php
@@ -40,7 +41,7 @@ if (!$conn) {
 }
 
 $sql = 'SELECT *
-		FROM mahasiswa';
+		FROM trenddb';
 		
 $query = mysqli_query($conn, $sql);
 
@@ -61,9 +62,9 @@ echo '<table>
 while ($row = mysqli_fetch_array($query))
 {
 	echo '<tr>
-			<td>'.$row['no'].'</td>
-			<td>'.$row['nama'].'</td>
-            <td>'.$row['umur'].'</td>
+			<td>'.$row['nomor'].'</td>
+			<td>'.$row['reason'].'</td>
+            <td>'.$row['trend'].'</td>
 		</tr>';
 }
 echo '
