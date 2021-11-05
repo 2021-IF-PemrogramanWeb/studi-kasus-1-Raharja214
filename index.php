@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+         body {
+            background-image: url('img/background-1.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+         }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1>Welcome To RDPWEB</h1>
+                        <img class="img img-responsive" src="img/rdpweb-180x66.png" />
                     </div>
                     <div class="col-md-4">
                         <a href="login.php" class="btn btn-secondary">Masuk</a>

@@ -53,8 +53,8 @@ if(isset($_POST['register'])){
 
         <p>&larr; <a href="index.php">Home</a>
 
-        <h4>Bergabunglah bersama ribuan orang lainnya...</h4>
-        <p>Sudah punya akun? <a href="login.php">Login di sini</a></p>
+        <h4>Bergabunglah bersama kami!!</h4>
+        <p>Sudah punya akun? <a href="login.php">Klik untuk login</a></p>
 
         <form action="" method="POST">
 
@@ -85,7 +85,7 @@ if(isset($_POST['register'])){
         </div>
 
         <div class="col-md-6">
-            <img class="img img-responsive" src="img/connect.png" />
+            <img class="img img-responsive" src="img/rdpweb.png" />
         </div>
 
     </div>

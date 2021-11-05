@@ -19,14 +19,18 @@ td, th {
   text-align: left;
   padding: 12px;
 }
-h2,h6{
-    text-align: center;
+h2{
+    text-align: left;
+}
+h3{
+    text-align: right;
+    margin-top: -1.5em
 }
 </style>
 <body>
-    <img class="img img-responsive" src="img/USER.png" />
     <button onclick="document.location='timeline.php'">Back</button>
-    <h2>Data Tabel</h2>
+    <h2><img class="img img-responsive" src="img/rdpweb-180x66.png" /></h2>
+    <h3>5 November 2021</h3>
 </body>
 </html>
 <?php
@@ -71,8 +75,6 @@ echo '
 	</tbody>
 </table>';
 
-// Apakah kita perlu menjalankan fungsi mysqli_free_result() ini? baca bagian VII
 mysqli_free_result($query);
 
-// Apakah kita perlu menjalankan fungsi mysqli_close() ini? baca bagian VII
 mysqli_close($conn);

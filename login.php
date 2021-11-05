@@ -41,7 +41,7 @@ if(isset($_POST['login'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login Pesbuk</title>
+    <title>Login RDPWEB</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
@@ -53,8 +53,8 @@ if(isset($_POST['login'])){
 
         <p>&larr; <a href="index.php">Home</a>
 
-        <h4>Masuk ke Pesbuk</h4>
-        <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+        <h4>Welcome To RDPWEB</h4>
+        <p>Belum punya akun? <a href="register.php">Klik disini untuk daftar!!!</a></p>
 
         <form action="" method="POST">
 
@@ -76,7 +76,7 @@ if(isset($_POST['login'])){
         </div>
 
         <div class="col-md-6">
-            <!-- isi dengan sesuatu di sini -->
+            <img class="img img-responsive" src="img/rdpweb.png" />
         </div>
 
     </div>
